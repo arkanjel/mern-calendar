@@ -13,7 +13,7 @@ const app = express();
 dbConnection()
 //CORS
 
-// app.use()
+app.use(cors())
 //Directorio publico 
 app.use( express.static('public') )
 
